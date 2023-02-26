@@ -1,8 +1,8 @@
 import * as model from './model.js';
 import { eventHandler } from './helper.js';
 
-import { btnTheme_HandlerClick } from './View/Events/btnThemeHandler.js';
-import { scrollDownEventHandler } from './View/Events/scrollDownHandler.js';
+import { btnTheme_HandlerClick } from './Events/btnThemeHandler.js';
+import { scrollDownEventHandler } from './Events/scrollDownHandler.js';
 
 import sectionView from './View/sectionView.js';
 import asideView from './View/asideView.js';

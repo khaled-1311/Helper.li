@@ -1,5 +1,5 @@
 //================= Importing files =================
-import { eventHandler } from '../../helper.js';
+import { eventHandler } from '../helper.js';
 
 //================= Declaring variables =================
 const header = document.querySelector('.header');

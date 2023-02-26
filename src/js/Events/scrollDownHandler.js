@@ -1,4 +1,4 @@
-import { eventHandler } from '../../helper';
+import { eventHandler } from '../helper';
 
 const scrollDown = document.querySelector('.scroll-down');
 const main = document.querySelector('.main');
