@@ -1,0 +1,124 @@
+.aside {
+  width: max-content;
+  max-height: 20rem;
+
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
+
+  overflow-x: auto;
+  background-color: var(--color-bg-secondary-3);
+
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease;
+
+  @include respond(sm-wh) {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    flex-direction: row;
+    max-width: min(100%, 40rem);
+    overflow: auto;
+    transform: translateY(0%);
+    margin: 0 auto;
+    border-top-left-radius: 0.5rem;
+  }
+
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  &__link {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-bg-primary-5);
+    font-size: 3rem;
+
+    position: relative;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid var(--color-text-secondary-1);
+    }
+  }
+
+  &__icon {
+    width: 100%;
+    height: 100%;
+    padding: 0.6rem 1rem;
+    transition: all 0.2s;
+    display: inline-block;
+  }
+
+  &__link:hover &__icon {
+    background-color: var(--color-bg-primary-3);
+    color: var(--color-text-secondary-1);
+  }
+
+  &__type {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    font-size: 0.5em;
+    background-color: var(--color-bg-primary-3);
+    color: var(--color-text-secondary-1);
+    padding: 0.2em 0.4em;
+    border-radius: 0.5rem;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+
+    // @include respond(sm-wh) {
+    //   left: 50%;
+    //   transform: translateX(-50%);
+    //   top: 0%;
+    // }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%) rotate(45deg);
+      left: -0.4rem;
+
+      width: 1rem;
+      height: 1rem;
+
+      background-color: var(--color-bg-primary-3);
+      z-index: -1;
+
+      // @include respond(sm-wh) {
+      //   left: 50%;
+      //   top: calc(100% - 0.5rem);
+      //   transform: translateX(-50%) rotate(45deg);
+      // }
+    }
+  }
+
+  &__link:hover &__type {
+    left: 130%;
+    opacity: 1;
+    visibility: visible;
+
+    @include respond(sm-wh) {
+      top: -10%;
+    }
+  }
+}
+
+.observe-aside {
+  opacity: 1;
+  visibility: visible;
+}

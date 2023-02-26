@@ -1,0 +1,57 @@
+.btn {
+  text-decoration: none;
+  background-color: var(--color-bg-primary-2);
+  font-size: clamp(1.6rem, 2vw, 2rem);
+  display: inline-block;
+  color: var(--color-text-secondary-1);
+  padding: 0.15em 0.5em;
+  border-radius: 0.2em;
+
+  &-link {
+    &--s1 {
+      position: relative;
+      overflow: hidden;
+      span {
+        display: inline-block;
+        transition: all 0.2s 0.1s ease-out;
+      }
+
+      span:nth-child(2) {
+        position: absolute;
+        top: 140%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      &:hover {
+        span:nth-child(1) {
+          transform: translateY(-100%);
+        }
+
+        span:nth-child(2) {
+          position: absolute;
+          top: 50%;
+        }
+      }
+
+      @include respond(ex-md) {
+        display: none;
+      }
+    }
+
+    &--s2 {
+      display: none;
+      width: 2.2rem;
+      height: 2.2rem;
+
+      border-radius: 50%;
+
+      justify-content: center;
+      align-items: center;
+
+      @include respond(ex-md) {
+        display: flex;
+      }
+    }
+  }
+}

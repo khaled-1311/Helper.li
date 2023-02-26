@@ -1,0 +1,15 @@
+.p8-y {
+  padding: 8rem 0;
+
+  @include respond(sm) {
+    padding: 5rem 0;
+  }
+}
+
+.sticky-sm {
+  position: sticky;
+}
+
+.test {
+  border: 2px solid #eee;
+}

@@ -1,0 +1,484 @@
+{
+  "data": [
+    {
+      "type": "tools",
+      "title": "Developer Tools",
+      "icon": "<i class=\"fa-solid fa-screwdriver-wrench\"></i>",
+      "resourses": [
+        {
+          "name": "visual studio code",
+          "url": "https://code.visualstudio.com/",
+          "logo": {
+            "name": "vscode",
+            "alt": "visual studio code logo"
+          }
+        },
+
+        {
+          "name": "My Visual Studio Code Setup",
+          "url": "https://code.visualstudio.com/",
+          "logo": {
+            "name": "vscode",
+            "alt": "visual studio code logo"
+          }
+        },
+
+        {
+          "name": "codepen",
+          "url": "https://codepen.io/",
+          "logo": {
+            "name": "codepen",
+            "alt": "codepen logo"
+          }
+        },
+
+        {
+          "name": "Emmet Cheat Sheet",
+          "url": "https://docs.emmet.io/cheat-sheet/",
+          "logo": {
+            "name": "emmet",
+            "alt": "Emmet Cheat Sheet logo"
+          }
+        }
+      ]
+    },
+    {
+      "type": "HTML",
+      "title": "HTML5 Resourses",
+      "icon": "<i class=\"fa-brands fa-html5\"></i>",
+      "resourses": [
+        {
+          "name": "HTML5 Reference by MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element",
+          "logo": {
+            "name": "mdn",
+            "alt": "MDN logo"
+          }
+        },
+
+        {
+          "name": "HTML Entity Reference by CSS-Tricks",
+          "url": "https://css-tricks.com/snippets/html/glyphs/",
+          "logo": {
+            "name": "css-tricks-3",
+            "alt": "css-tricks logo"
+          }
+        }
+      ]
+    },
+
+    {
+      "type": "CSS",
+      "title": "CSS Resourses",
+      "icon": "<i class=\"fa-brands fa-css3-alt\"></i>",
+      "resourses": [
+        {
+          "name": "CSS Reference by MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference",
+          "logo": {
+            "name": "mdn",
+            "alt": "MDN logo"
+          }
+        },
+
+        {
+          "name": "CSS3 Reference by Codrops",
+          "url": "https://tympanus.net/codrops/css_reference/",
+          "logo": {
+            "name": "codrops",
+            "alt": "CSS3 Reference by Codrops logo"
+          }
+        },
+
+        {
+          "name": "Jonas' Advanced CSS Course",
+          "url": "https://www.udemy.com/course/advanced-css-and-sass/?couponCode=RESOURCES4",
+          "logo": {
+            "name": "C4-round",
+            "alt": "Jonas' Advanced CSS Course logo"
+          }
+        },
+
+        {
+          "name": "CSS-Tricks",
+          "url": "https://css-tricks.com/",
+          "logo": {
+            "name": "css-tricks-3",
+            "alt": "CSS-Tricks logo"
+          }
+        },
+
+        {
+          "name": "Can I use?",
+          "url": "https://caniuse.com/",
+          "logo": {
+            "name": "caniuse",
+            "alt": "can i use webiste logo"
+          }
+        }
+      ]
+    },
+
+    {
+      "type": "JavaScript",
+      "title": "JavaScript Resourses",
+      "icon": "<i class=\"fa-brands fa-square-js\"></i>",
+      "resourses": [
+        {
+          "name": "JavaScript Reference by MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference",
+          "logo": {
+            "name": "mdn",
+            "alt": "MDN logo"
+          }
+        },
+
+        {
+          "name": "JavaScript Operator Precedence Table",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence",
+          "logo": {
+            "name": "mdn",
+            "alt": "MDN logo"
+          }
+        },
+
+        {
+          "name": "JavaScript Event Reference",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/Events",
+          "logo": {
+            "name": "mdn",
+            "alt": "MDN logo"
+          }
+        }
+      ]
+    },
+
+    {
+      "type": "fonts",
+      "title": "fonts & typography tools",
+      "icon": "<i class=\"fa-solid fa-font\"></i>",
+      "resourses": [
+        {
+          "name": "Google Fonts",
+          "url": "https://fonts.google.com/",
+          "logo": {
+            "name": "googlefonts",
+            "alt": "Google Fonts Logo"
+          }
+        },
+        {
+          "name": "Fontsquirrel",
+          "url": "",
+          "logo": {
+            "name": "fontsquirrel",
+            "alt": "Fontsquirrel Logo"
+          }
+        },
+        {
+          "name": "The 100 best free fonts by Creative Bloq",
+          "url": "https://www.creativebloq.com/graphic-design-tips/best-free-fonts-for-designers-1233380",
+          "logo": {
+            "name": "creativebloq",
+            "alt": "Creative Bloq Logo"
+          }
+        },
+        {
+          "name": "MyFonts",
+          "url": "https://www.myfonts.com/",
+          "logo": {
+            "name": "myfonts",
+            "alt": "MyFonts Logo"
+          },
+          "premium": true
+        }
+      ]
+    },
+
+    {
+      "type": "colors",
+      "title": "awesome color & background",
+      "icon": "<i class=\"fa-solid fa-droplet\"></i>",
+      "resourses": [
+        {
+          "name": "Open Color",
+          "url": "https://yeun.github.io/open-color/",
+          "logo": {
+            "name": "opencolor",
+            "alt": "Open Color Logo"
+          }
+        },
+        {
+          "name": "Tailwind Colors",
+          "url": "https://tailwindcss.com/docs/customizing-colors",
+          "logo": {
+            "name": "tailwind",
+            "alt": "Tailwind Logo"
+          }
+        },
+        {
+          "name": "Flat UI Colors",
+          "url": "http://flatuicolors.com/",
+          "logo": {
+            "name": "flatuicolors",
+            "alt": "Flat UI Colors logo"
+          }
+        },
+        {
+          "name": "Material Palette",
+          "url": "http://www.materialpalette.com/",
+          "logo": {
+            "name": "materialpalette",
+            "alt": "Material Palette Logo"
+          }
+        },
+        {
+          "name": "LOL Colors Palettes",
+          "url": "https://www.webdesignrankings.com/resources/lolcolors/",
+          "logo": {
+            "name": "colorhunt",
+            "alt": "LOL Colors Palettes Logo"
+          }
+        },
+        {
+          "name": "Colorhunt Palettes",
+          "url": "http://www.colorhunt.co/",
+          "logo": {
+            "name": "colorhunt",
+            "alt": "Colorhunt Palettes Logo"
+          }
+        },
+        {
+          "name": "UI Gradients",
+          "url": "https://uigradients.com/#Sky",
+          "logo": {
+            "name": "uigradients",
+            "alt": "UI Gradients Logo"
+          }
+        },
+        {
+          "name": "Paletton",
+          "url": "http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF",
+          "logo": {
+            "name": "paletton",
+            "alt": "Paletton Logo"
+          }
+        },
+        {
+          "name": "Tint and Shade Generator",
+          "url": "https://maketintsandshades.com/",
+          "logo": {
+            "name": "maketintsandshades",
+            "alt": "Tint and Shade Generator Logo"
+          }
+        },
+        {
+          "name": "0to255",
+          "url": "https://0to255.com/",
+          "logo": {
+            "name": "0to255new",
+            "alt": "0to255new Logo"
+          }
+        },
+        {
+          "name": "Coolors Contrast Checker",
+          "url": "https://coolors.co/contrast-checker/112a46-acc8e5",
+          "logo": {
+            "name": "coolors",
+            "alt": "Coolors Contrast Checker Logo"
+          }
+        }
+      ]
+    },
+
+    {
+      "type": "images",
+      "title": "images & background",
+      "icon": "<i class=\"fa-solid fa-image\"></i>",
+      "resourses": [
+        {
+          "name": "Unsplash",
+          "url": "https://unsplash.com/",
+          "logo": {
+            "name": "unsplash",
+            "alt": "Unsplash Logo"
+          }
+        },
+        {
+          "name": "Pexels",
+          "url": "https://www.pexels.com/",
+          "logo": {
+            "name": "pexels",
+            "alt": "Pexels Logo"
+          }
+        },
+        {
+          "name": "ISO Republic",
+          "url": "https://isorepublic.com/",
+          "logo": {
+            "name": "isorepublic",
+            "alt": "ISO Republic Logo"
+          }
+        },
+        {
+          "name": "Pixaby",
+          "url": "https://pixabay.com/",
+          "logo": {
+            "name": "pixaby",
+            "alt": "Pixaby Logo"
+          }
+        },
+        {
+          "name": "unDraw",
+          "url": "https://undraw.co/illustrations",
+          "logo": {
+            "name": "undraw",
+            "alt": "unDraw Logo"
+          }
+        },
+        {
+          "name": "DrawKit",
+          "url": "https://www.drawkit.com/",
+          "logo": {
+            "name": "drawkit",
+            "alt": "DrawKit Logo"
+          }
+        },
+        {
+          "name": "UI Faces",
+          "url": "https://www.uifaces.co/",
+          "logo": {
+            "name": "uifaces",
+            "alt": "UI Faces Logo"
+          }
+        }
+      ]
+    },
+
+    {
+      "type": "videos",
+      "title": "videos & gifs",
+      "icon": "<i class=\"fa-solid fa-video\"></i>",
+      "resourses": [
+        {
+          "name": "Pexels",
+          "url": "https://www.pexels.com/videos/",
+          "logo": {
+            "name": "pexels",
+            "alt": "pexels Logo"
+          }
+        },
+        {
+          "name": "Coverr",
+          "url": "https://coverr.co/",
+          "logo": {
+            "name": "coverr",
+            "alt": "coverr Logo"
+          }
+        },
+        {
+          "name": "ISO Republic",
+          "url": "https://isorepublic.com/videos/",
+          "logo": {
+            "name": "isorepublic",
+            "alt": "ISO Republic Logo"
+          }
+        }
+      ]
+    },
+
+    {
+      "type": "icons",
+      "title": "Awesome icons & animated icons",
+      "icon": "<i class=\"fa-solid fa-icons\"></i>",
+      "resourses": [
+        {
+          "name": "Ionicons",
+          "url": "https://ionic.io/ionicons",
+          "logo": {
+            "name": "ionicons",
+            "alt": "Ionicons Logo"
+          }
+        },
+        {
+          "name": "Hero Icons",
+          "url": "https://heroicons.com/",
+          "logo": {
+            "name": "heroicons",
+            "alt": "Hero Icons Logo"
+          }
+        },
+        {
+          "name": "Phosphor Icons",
+          "url": "https://phosphoricons.com/",
+          "logo": {
+            "name": "phosphoricons",
+            "alt": "Phosphor Icons Logo"
+          }
+        },
+        {
+          "name": "Font Awesome",
+          "url": "https://fontawesome.com/",
+          "logo": {
+            "name": "fontawesome",
+            "alt": "Font Awesome Logo"
+          }
+        },
+        {
+          "name": "Line Awesome",
+          "url": "https://icons8.com/line-awesome",
+          "logo": {
+            "name": "Icons8",
+            "alt": "Line Awesome Logo"
+          }
+        },
+        {
+          "name": "Iconmonstr",
+          "url": "https://iconmonstr.com/",
+          "logo": {
+            "name": "iconmonstr",
+            "alt": "Iconmonstr Logo"
+          }
+        },
+        {
+          "name": "Icons8 ",
+          "url": "https://icons8.com/",
+          "logo": {
+            "name": "Icons8",
+            "alt": "Icons8 Logo"
+          },
+          "premium": true
+        },
+        {
+          "name": "Icon 54",
+          "url": "https://icon54.com/",
+          "logo": {
+            "name": "icon54",
+            "alt": "Icon 54 Logo"
+          },
+          "premium": true
+        }
+      ]
+    },
+
+    {
+      "type": "design",
+      "title": "find design inspiration",
+      "icon": "<i class=\"fa-solid fa-lightbulb\"></i>",
+      "resourses": []
+    },
+
+    {
+      "type": "blogs",
+      "title": "popular blogs & communities",
+      "icon": "<i class=\"fa-solid fa-blog\"></i>",
+      "resourses": []
+    },
+
+    {
+      "type": "node-js",
+      "title": "node.js resourses",
+      "icon": "<i class=\"fa-brands fa-node-js\"></i>",
+      "resourses": []
+    }
+  ]
+}

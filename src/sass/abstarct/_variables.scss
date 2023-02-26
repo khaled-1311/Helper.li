@@ -1,0 +1,55 @@
+:root {
+  --color-white: #fff;
+
+  --color-blue-1: #0583b1;
+
+  --color-bg-primary-1: #38b5b3;
+  --color-bg-primary-2: #149794;
+  --color-bg-primary-3: #04817d;
+  --color-bg-primary-4: #0e7c7a;
+  --color-bg-primary-5: #046b68;
+
+  --color-bg-secondary-1: #f8f9fa;
+  --color-bg-secondary-2: #f1f3f5;
+  --color-bg-secondary-3: #eaeaea;
+  --color-bg-secondary-4: #d5d5d5;
+  --color-bg-secondary-5: #bababa;
+
+  --color-text-primary-1: #38b5b3;
+  --color-text-primary-2: #149794;
+  --color-text-primary-3: #04817d;
+  --color-text-primary-4: #0e7c7a;
+  --color-text-primary-5: #046b68;
+
+  --color-text-secondary-1: #f8f9fa;
+  --color-text-secondary-2: #f1f3f5;
+  --color-text-secondary-3: #eaeaea;
+  --color-text-secondary-4: #d5d5d5;
+  --color-text-secondary-5: #bababa;
+
+  --color-valid: #37a56f;
+  --color-invalid: #af3c3a;
+
+  --color-bg-secondary-1-c: #f8f9fa;
+  --color-bg-secondary-2-c: transparent;
+  --color-bg-tertiary-1-c: #292c35;
+  --color-text-primary-4-c: #0e7c7a;
+  --color-text-secondary-1-c: #f8f9fa;
+}
+
+.darkmode {
+  --color-bg-secondary-1-c: #292c35;
+  --color-bg-secondary-2-c: #202229;
+
+  --color-bg-tertiary-1-c: #f8f9fa;
+
+  --color-text-primary-4-c: #38b5b3;
+
+  --color-text-secondary-1-c: #292c35;
+}
+
+/*---------------------------------------------------
+----------------- Grid System Variables -------------
+-----------------------------------------------------*/
+
+$gutter-horizontal: 3rem;

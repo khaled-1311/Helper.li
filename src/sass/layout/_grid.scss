@@ -1,0 +1,29 @@
+.container {
+  max-width: min(90%, 120rem);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.row {
+  width: 100%;
+  margin: 1rem 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: $gutter-horizontal;
+}
+
+.col {
+  &-all {
+    width: 100%;
+  }
+
+  &-4 {
+    width: max(calc((100% - (3 * #{$gutter-horizontal})) / 4), 27rem);
+
+    @include respond(ex-sm) {
+      width: 100%;
+    }
+  }
+}

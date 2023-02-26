@@ -1,0 +1,27 @@
+.section {
+  padding: 5rem 0;
+
+  @include respond(sm) {
+    padding: 2.5rem 0;
+  }
+
+  &__home {
+    padding: 0;
+  }
+
+  &__tags {
+    padding: 4rem 0;
+
+    @include respond(sm) {
+      padding: 2rem 0;
+    }
+  }
+
+  &__resources:nth-child(even) {
+    background-color: var(--color-bg-secondary-1-c);
+  }
+
+  &__resources:nth-child(odd) {
+    background-color: var(--color-bg-secondary-2-c);
+  }
+}

@@ -1,0 +1,52 @@
+.resource {
+  width: 100%;
+  font-size: clamp(1.6rem, 2vw, 2rem);
+
+  border-radius: 0.3em;
+  background-color: var(--color-bg-secondary-2);
+  border: 1px solid var(--color-bg-secondary-3);
+  transition: all 0.2s;
+
+  &:hover {
+    border: 1px solid var(--color-bg-secondary-4);
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    @include respond(ex-sm) {
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    padding: 0.5em 0.7em;
+    color: var(--color-bg-primary-4);
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+
+  &__image {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+  }
+
+  &__title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    @include respond(ex-sm) {
+      white-space: normal;
+      text-align: center;
+
+      // white-space: nowrap;
+      overflow: hidden;
+      text-overflow: clip;
+    }
+  }
+}

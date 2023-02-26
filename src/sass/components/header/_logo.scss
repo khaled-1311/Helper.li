@@ -1,0 +1,14 @@
+.logo {
+  font-size: 2em;
+
+  &__link {
+    color: var(--color-text-secondary-1-c);
+    font-weight: 500;
+    text-decoration: none;
+
+    & > i {
+      font-size: 0.9em;
+      color: var(--color-text-primary-2);
+    }
+  }
+}
